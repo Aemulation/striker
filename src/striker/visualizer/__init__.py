@@ -1,5 +1,7 @@
 import taichi as ti
 
+ti.init(arch=ti.opengl)
+
 import striker as sr
 
 
