@@ -3,7 +3,7 @@ import torch
 
 from striker.engine._solver import PhysicsSolver
 
-ti.init(arch=ti.opengl)
+ti.init(arch=ti.cpu)
 
 
 @ti.data_oriented

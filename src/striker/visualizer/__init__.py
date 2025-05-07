@@ -2,7 +2,7 @@ import taichi as ti
 
 import striker as sr
 
-ti.init(arch=ti.opengl)
+ti.init(arch=ti.cpu)
 
 
 @ti.data_oriented
