@@ -25,7 +25,7 @@ def init(backend=sr_backend.gpu, precision: Literal["32", "64"] = "32"):
     device, device_name, total_mem = _setup_device(backend)
 
     print(f"using backend {device} on {device_name} with {total_mem}")
-    ti.init(arch=backend.taichi)
+    ti.init(arch=ti.opengl)
 
     global ti_float
     if precision == "32":
