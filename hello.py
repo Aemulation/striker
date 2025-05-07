@@ -5,7 +5,7 @@ from tqdm.auto import tqdm
 
 import striker as sr
 
-sr.init(backend=sr.gpu)
+sr.init(backend=sr.cpu)
 
 scene = sr.Scene(show_viewer=True)
 
