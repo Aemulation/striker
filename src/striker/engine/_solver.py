@@ -4,6 +4,8 @@ import torch
 
 import striker as sr
 
+ti.init(arch=ti.opengl)
+
 
 @ti.data_oriented
 class PhysicsSolver:

@@ -3,6 +3,8 @@ import torch
 
 from striker.engine._solver import PhysicsSolver
 
+ti.init(arch=ti.opengl)
+
 
 @ti.data_oriented
 class Entity:
